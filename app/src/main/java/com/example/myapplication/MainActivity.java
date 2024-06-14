@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         View helloButton = findViewById(R.id.helloButton);
 
         helloButton.setOnClickListener((view) -> {
-            Snackbar snackbar = Snackbar.make(view, "Hello world!", 5);
+            Snackbar snackbar = Snackbar.make(view, "Hello Sergika!!!!", 5);
             snackbar.show();
         });
 
