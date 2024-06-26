@@ -1,26 +1,25 @@
 package com.example.myapplication;
 
-import android.view.View;
+import android.os.Bundle;
+import android.widget.Button;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.TaskStackBuilder;
+import com.example.myapplication.modul3.examples.ExamplesActivity;
+import com.example.myapplication.modul3.examples.Sarcina1Activity;
+import com.example.myapplication.modul3.examples.Sarcina2Activity;
+import com.example.myapplication.modul3.examples.Sarcina3Activity;
+import com.example.myapplication.modul3.own.Mod3L1Ex2;
+import com.example.myapplication.modul3.own.OwnActivity;
 
-import com.google.android.material.snackbar.Snackbar;
-
-public class MainActivity extends AppCompatActivity {
-
+public class MainActivity extends CustomActivity {
     @Override
-    public void onCreateSupportNavigateUpTaskStack(@NonNull TaskStackBuilder builder) {
-        super.onCreateSupportNavigateUpTaskStack(builder);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        View helloButton = findViewById(R.id.helloButton);
+        Button buttonActivityEx = findViewById(R.id.button_mod3_ex);
+        Button buttonActivityOwn = findViewById(R.id.button_mod3_own);
 
-        helloButton.setOnClickListener((view) -> {
-            Snackbar snackbar = Snackbar.make(view, "Hello Sergika!!!!", 5);
-            snackbar.show();
-        });
-
+        addActivity(buttonActivityEx, ExamplesActivity.class);
+        addActivity(buttonActivityOwn, OwnActivity.class);
     }
 }

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_activity_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 1" />
+
+    <Button
+        android:id="@+id/button_activity_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 2" />
+
+    <Button
+        android:id="@+id/button_activity_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 3" />
+
+    <Button
+        android:id="@+id/button_activity_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 4" />
+
+    <Button
+        android:id="@+id/button_activity_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 5" />
+
+    <Button
+        android:id="@+id/button_activity_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 6" />
+
+    <Button
+        android:id="@+id/button_activity_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 7" />
+
+    <Button
+        android:id="@+id/button_activity_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 8" />
+
+    <Button
+        android:id="@+id/button_activity_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 9" />
+
+    <Button
+        android:id="@+id/button_activity_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 10" />
+
+    <Button
+        android:id="@+id/button_activity_eleven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarcina 11" />
+</LinearLayout>

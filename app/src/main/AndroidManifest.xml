@@ -21,6 +21,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".modul3.examples.ExamplesActivity" />
+        <activity android:name=".modul3.examples.Sarcina1Activity" />
+        <activity android:name=".modul3.examples.Sarcina2Activity" />
+        <activity android:name=".modul3.examples.Sarcina3Activity" />
+        <activity android:name=".modul3.examples.Sarcina4Activity" />
+        <activity android:name=".modul3.examples.Sarcina5Activity" />
+        <activity android:name=".modul3.examples.Sarcina6Activity" />
+        <activity android:name=".modul3.examples.Sarcina7Activity" />
+        <activity android:name=".modul3.examples.Sarcina8Activity" />
+        <activity android:name=".modul3.examples.Sarcina9Activity" />
+        <activity android:name=".modul3.examples.Sarcina10Activity" />
+        <activity android:name=".modul3.examples.Sarcina11Activity" />
+        <activity android:name=".modul3.own.OwnActivity" />
+        <activity android:name=".modul3.own.Mod3L1Ex2" />
+        <activity android:name=".modul3.own.Mod3L2Ex1" />
+        <activity android:name=".modul3.own.Mod3L2Ex2" />
     </application>
 
 </manifest>
